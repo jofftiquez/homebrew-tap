@@ -1,28 +1,28 @@
 class Lsnote < Formula
   desc "ls with notes - list directory contents with file notes, emoji icons, and git integration"
   homepage "https://github.com/jofftiquez/lsnote"
-  version "1.3.1"
+  version "1.3.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jofftiquez/lsnote/releases/download/v1.3.1/lsnote-aarch64-apple-darwin.tar.gz"
-      sha256 "d469f7f8dfcdd33fc20864ff3b586b15d7eaa144d1d13787769bc564bf1344fc"
+      url "https://github.com/jofftiquez/lsnote/releases/download/v1.3.2/lsnote-aarch64-apple-darwin.tar.gz"
+      sha256 "41a03b9a6f31b3cc4ff5a9dbc41568569c98c22f8e8f54d19952447abadd1bd3"
     end
     on_intel do
-      url "https://github.com/jofftiquez/lsnote/releases/download/v1.3.1/lsnote-x86_64-apple-darwin.tar.gz"
-      sha256 "d4a41553eb0375cd0b8b6baaae695342d48de6137337a5ac51df97b02c1d1884"
+      url "https://github.com/jofftiquez/lsnote/releases/download/v1.3.2/lsnote-x86_64-apple-darwin.tar.gz"
+      sha256 "11e25e7ed62a89cf7e2523ed9424fbc29b4ffab614be34dd2bb50c7a7227ace9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jofftiquez/lsnote/releases/download/v1.3.1/lsnote-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cc7e33fbb5f05bb3cbfbf85175d68b60c40740c6e1f08ccf4984240d26ce1467"
+      url "https://github.com/jofftiquez/lsnote/releases/download/v1.3.2/lsnote-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "90660778ae6b547f76adde6ce00b03fa20fbd2e7a68e129f8c6fd9050812869a"
     end
     on_intel do
-      url "https://github.com/jofftiquez/lsnote/releases/download/v1.3.1/lsnote-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bcb0aa269cab3d66031f41e0632a8788ab48d8eaca7dd7197c3bc3075b4bb202"
+      url "https://github.com/jofftiquez/lsnote/releases/download/v1.3.2/lsnote-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e2dee71d90aaf10f5d7d31fc526be28eecd4520ba2dbfbc722a09fbcf28478bd"
     end
   end
 
